@@ -7,6 +7,7 @@ HOME_FILES="
 .bash_exports
 .bashrc
 .bash_functions
+.urxvt
 "
 
 ENCRYPTED_HOME_FILES="

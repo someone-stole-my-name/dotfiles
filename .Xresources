@@ -42,10 +42,16 @@ URxvt.cursorBlink : 1
 
 URxvt.iconFile:    /home/christian/.local/share/icons/terminal.png
 
-URxvt.font:             xft:JetBrainsMono Nerd Font Mono:style=Regular:pixelsize=17
-URxvt.boldFont:		    xft:JetBrains Mono:style=Bold:pixelsize=17
-URxvt.italicFont: 	    xft:JetBrains Mono:style=Italic:pixelsize=17
-URxvt.boldItalicfont: 	xft:JetBrains Mono:style=Bold Italic:pixelsize=17
+URxvt.font:             xft:JetBrainsMono Nerd Font Mono:style=Regular:pixelsize=24
+URxvt.boldFont:		    xft:JetBrains Mono:style=Bold:pixelsize=24
+URxvt.italicFont: 	    xft:JetBrains Mono:style=Italic:pixelsize=24
+URxvt.boldItalicfont: 	xft:JetBrains Mono:style=Bold Italic:pixelsize=24
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
 
 URxvt.lineSpace           : 0
 URxvt.letterSpace         : 0
@@ -58,9 +64,9 @@ URxvt.titleBar            : false
 URxvt.intensityStyles     : false
 
 
-URxvt.perl-ext-common : default,matcher,font-size,selection-to-clipboard
+URxvt.perl-ext-common : default,matcher,font-size,selection-to-clipboard,fullscreen
 URxvt.url-launcher    : google-chrome
-
+URxvt.keysym.F11:       perl:fullscreen:switch
 ! Restore Ctrl+Shift+(c|v)
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
