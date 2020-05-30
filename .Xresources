@@ -42,10 +42,10 @@ URxvt.cursorBlink : 1
 
 URxvt.iconFile:    /home/christian/.local/share/icons/terminal.png
 
-URxvt.font:             xft:JetBrainsMono Nerd Font Mono:style=Regular:pixelsize=24
-URxvt.boldFont:		    xft:JetBrains Mono:style=Bold:pixelsize=24
-URxvt.italicFont: 	    xft:JetBrains Mono:style=Italic:pixelsize=24
-URxvt.boldItalicfont: 	xft:JetBrains Mono:style=Bold Italic:pixelsize=24
+URxvt.font:             xft:JetBrainsMono Nerd Font Mono:style=Regular:pixelsize=18
+URxvt.boldFont:		    xft:JetBrains Mono:style=Bold:pixelsize=18
+URxvt.italicFont: 	    xft:JetBrains Mono:style=Italic:pixelsize=18
+URxvt.boldItalicfont: 	xft:JetBrains Mono:style=Bold Italic:pixelsize=18
 
 Xft.dpi:        96
 Xft.antialias:  true

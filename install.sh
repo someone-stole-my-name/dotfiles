@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
 HOME_FILES="
-.vimrc
-.tmux.conf
 .Xresources
 .bash_exports
-.bashrc
 .bash_functions
+.bashrc
+.fonts
+.tmux.conf
 .urxvt
+.vimrc
 "
 
 ENCRYPTED_HOME_FILES="

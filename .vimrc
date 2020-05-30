@@ -71,7 +71,7 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'mattn/vim-lsp-settings'
 Plug 'hashivim/vim-terraform'
 Plug 'JamshedVesuna/vim-markdown-preview'
-Plug 'b4b4r07/vim-ansible-vault'
+Plug 'someone-stole-my-name/vim-ansible-vault'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
